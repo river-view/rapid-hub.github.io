@@ -6,7 +6,7 @@
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://yunks128.github.io/rapid-hub/blog"/>
     <subtitle>RAPID2 Blog</subtitle>
-    <icon>https://yunks128.github.io/rapid-hub/img/favicon.ico</icon>
+    <icon>https://yunks128.github.io/rapid-hub/img/favicon.svg</icon>
     <entry>
         <title type="html"><![CDATA[Welcome]]></title>
         <id>https://yunks128.github.io/rapid-hub/blog/welcome</id>
