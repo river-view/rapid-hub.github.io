@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <!-- Background -->
+  <rect x="0" y="0" width="400" height="300" fill="#f8f8f8" opacity="0.2"/>
+  
+  <!-- Graph Grid -->
+  <g stroke="#BBE1FA" stroke-width="1">
+    <line x1="50" y1="50" x2="50" y2="250"/>
+    <line x1="50" y1="250" x2="350" y2="250"/>
+    
+    <!-- Horizontal Grid Lines -->
+    <line x1="50" y1="50" x2="350" y2="50" stroke-dasharray="5,5"/>
+    <line x1="50" y1="100" x2="350" y2="100" stroke-dasharray="5,5"/>
+    <line x1="50" y1="150" x2="350" y2="150" stroke-dasharray="5,5"/>
+    <line x1="50" y1="200" x2="350" y2="200" stroke-dasharray="5,5"/>
+    
+    <!-- Vertical Grid Lines -->
+    <line x1="100" y1="50" x2="100" y2="250" stroke-dasharray="5,5"/>
+    <line x1="150" y1="50" x2="150" y2="250" stroke-dasharray="5,5"/>
+    <line x1="200" y1="50" x2="200" y2="250" stroke-dasharray="5,5"/>
+    <line x1="250" y1="50" x2="250" y2="250" stroke-dasharray="5,5"/>
+    <line x1="300" y1="50" x2="300" y2="250" stroke-dasharray="5,5"/>
+    <line x1="350" y1="50" x2="350" y2="250" stroke-dasharray="5,5"/>
+  </g>
+  
+  <!-- Axis Labels -->
+  <text x="200" y="280" text-anchor="middle" font-family="Arial" font-size="12" fill="#1B262C">Time</text>
+  <text x="30" y="150" text-anchor="middle" font-family="Arial" font-size="12" fill="#1B262C" transform="rotate(-90, 30, 150)">Discharge</text>
+  
+  <!-- Observed Data Points -->
+  <g fill="#E94560">
+    <circle cx="75" cy="180" r="4"/>
+    <circle cx="100" cy="150" r="4"/>
+    <circle cx="125" cy="130" r="4"/>
+    <circle cx="150" cy="110" r="4"/>
+    <circle cx="175" cy="90" r="4"/>
+    <circle cx="200" cy="100" r="4"/>
+    <circle cx="225" cy="120" r="4"/>
+    <circle cx="250" cy="140" r="4"/>
+    <circle cx="275" cy="160" r="4"/>
+    <circle cx="300" cy="180" r="4"/>
+    <circle cx="325" cy="200" r="4"/>
+  </g>
+  
+  <!-- Model Line 1 -->
+  <path d="M75,185 L100,155 L125,135 L150,115 L175,95 L200,105 L225,125 L250,145 L275,165 L300,185 L325,205" 
+        fill="none" stroke="#3282B8" stroke-width="2"/>
+  
+  <!-- Model Line 2 -->
+  <path d="M75,175 L100,145 L125,125 L150,105 L175,85 L200,95 L225,115 L250,135 L275,155 L300,175 L325,195" 
+        fill="none" stroke="#0F4C75" stroke-width="2" stroke-dasharray="5,3"/>
+  
+  <!-- Error Bars -->
+  <g stroke="#1B262C" stroke-width="1">
+    <line x1="100" y1="145" x2="100" y2="155"/>
+    <line x1="150" y1="105" x2="150" y2="115"/>
+    <line x1="200" y1="95" x2="200" y2="105"/>
+    <line x1="250" y1="135" x2="250" y2="145"/>
+    <line x1="300" y1="175" x2="300" y2="185"/>
+  </g>
+  
+  <!-- Legend -->
+  <rect x="250" y="60" width="90" height="60" fill="white" stroke="#0F4C75" stroke-width="1"/>
+  <circle cx="260" cy="75" r="4" fill="#E94560"/>
+  <text x="270" y="80" font-family="Arial" font-size="10" fill="#1B262C">Observed</text>
+  <line x1="255" y1="95" x2="265" y2="95" stroke="#3282B8" stroke-width="2"/>
+  <text x="270" y="100" font-family="Arial" font-size="10" fill="#1B262C">RAPID2</text>
+  <line x1="255" y1="115" x2="265" y2="115" stroke="#0F4C75" stroke-width="2" stroke-dasharray="5,3"/>
+  <text x="270" y="120" font-family="Arial" font-size="10" fill="#1B262C">Reference</text>
+  
+  <!-- Accuracy Metrics -->
+  <text x="100" y="70" font-family="Arial" font-size="10" fill="#1B262C">NSE: 0.92</text>
+  <text x="100" y="85" font-family="Arial" font-size="10" fill="#1B262C">KGE: 0.89</text>
+  <text x="100" y="100" font-family="Arial" font-size="10" fill="#1B262C">RMSE: 4.3</text>
+</svg>

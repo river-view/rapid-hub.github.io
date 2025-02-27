@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <!-- Background -->
+  <rect x="0" y="0" width="400" height="300" fill="#f8f8f8" opacity="0.2"/>
+  
+  <!-- Python Logo (Simplified) -->
+  <g transform="translate(120, 120) scale(0.8)">
+    <!-- Python Body -->
+    <path d="M-40,-50 C-40,-60 -30,-70 -20,-70 L20,-70 C30,-70 40,-60 40,-50 L40,0 C40,10 30,20 20,20 L-20,20 C-30,20 -40,10 -40,0 Z" 
+          fill="#3776AB" stroke="#1B262C" stroke-width="2"/>
+    <path d="M-40,0 C-40,-10 -30,-20 -20,-20 L20,-20 C30,-20 40,-10 40,0 L40,50 C40,60 30,70 20,70 L-20,70 C-30,70 -40,60 -40,50 Z" 
+          fill="#FFD43B" stroke="#1B262C" stroke-width="2"/>
+    
+    <!-- Eyes -->
+    <circle cx="-15" cy="-40" r="5" fill="white"/>
+    <circle cx="15" cy="-40" r="5" fill="white"/>
+    <circle cx="-15" cy="-40" r="2" fill="#1B262C"/>
+    <circle cx="15" cy="-40" r="2" fill="#1B262C"/>
+  </g>
+  
+  <!-- Docker Logo (Simplified) -->
+  <g transform="translate(280, 150)">
+    <!-- Docker Containers -->
+    <rect x="-50" y="-30" width="20" height="20" fill="#3282B8" stroke="#1B262C" stroke-width="1"/>
+    <rect x="-25" y="-30" width="20" height="20" fill="#3282B8" stroke="#1B262C" stroke-width="1"/>
+    <rect x="0" y="-30" width="20" height="20" fill="#3282B8" stroke="#1B262C" stroke-width="1"/>
+    <rect x="-50" y="-55" width="20" height="20" fill="#3282B8" stroke="#1B262C" stroke-width="1"/>
+    <rect x="-25" y="-55" width="20" height="20" fill="#3282B8" stroke="#1B262C" stroke-width="1"/>
+    <rect x="0" y="-55" width="20" height="20" fill="#3282B8" stroke="#1B262C" stroke-width="1"/>
+    <rect x="25" y="-30" width="20" height="20" fill="#3282B8" stroke="#1B262C" stroke-width="1"/>
+    
+    <!-- Docker Mascot -->
+    <path d="M25,-45 C25,-60 40,-60 40,-45 Q45,-50 50,-45 T50,-35 Q60,-40 60,-30 T50,-20 Q45,-25 40,-25 C40,-10 25,-10 25,-25 Z" 
+          fill="#ffffff" stroke="#1B262C" stroke-width="1"/>
+    <circle cx="35" cy="-50" r="2" fill="#1B262C"/>
+  </g>
+  
+  <!-- Code Block -->
+  <rect x="100" y="30" width="200" height="70" rx="5" ry="5" fill="#1B262C"/>
+  <text x="110" y="50" font-family="monospace" font-size="10" fill="#ffffff">import rapid2</text>
+  <text x="110" y="65" font-family="monospace" font-size="10" fill="#ffffff">model = rapid2.Model()</text>
+  <text x="110" y="80" font-family="monospace" font-size="10" fill="#ffffff">model.run('river_network.nc')</text>
+  <text x="110" y="95" font-family="monospace" font-size="10" fill="#ffffff">results = model.get_discharge()</text>
+  
+  <!-- Docker Command -->
+  <rect x="100" y="200" width="200" height="40" rx="5" ry="5" fill="#1B262C"/>
+  <text x="110" y="220" font-family="monospace" font-size="10" fill="#ffffff">docker run -v $(pwd):/data \</text>
+  <text x="110" y="235" font-family="monospace" font-size="10" fill="#ffffff">rapid2/rapid2 run /data/config.yml</text>
+  
+  <!-- Connecting Arrows -->
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#0F4C75"/>
+    </marker>
+  </defs>
+  <path d="M150,100 C150,120 150,140 150,160 C150,180 180,180 180,200" fill="none" stroke="#0F4C75" stroke-width="2" marker-end="url(#arrow)"/>
+  <path d="M250,100 C250,120 250,140 250,160 C250,180 220,180 220,200" fill="none" stroke="#0F4C75" stroke-width="2" marker-end="url(#arrow)"/>
+  
+  <!-- Labels -->
+  <text x="150" y="180" font-family="Arial" font-size="12" fill="#1B262C">Development</text>
+  <text x="250" y="180" font-family="Arial" font-size="12" fill="#1B262C">Deployment</text>
+</svg>
