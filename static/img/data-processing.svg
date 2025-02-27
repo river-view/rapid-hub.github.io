@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <!-- Background -->
+  <rect x="0" y="0" width="400" height="300" fill="#f8f8f8" opacity="0.3"/>
+  
+  <!-- NetCDF File Representation -->
+  <rect x="40" y="50" width="120" height="160" rx="5" ry="5" fill="#BBE1FA" stroke="#0F4C75" stroke-width="2"/>
+  <rect x="50" y="70" width="100" height="20" rx="3" ry="3" fill="#ffffff" stroke="#0F4C75" stroke-width="1"/>
+  <rect x="50" y="100" width="100" height="20" rx="3" ry="3" fill="#ffffff" stroke="#0F4C75" stroke-width="1"/>
+  <rect x="50" y="130" width="100" height="20" rx="3" ry="3" fill="#ffffff" stroke="#0F4C75" stroke-width="1"/>
+  <rect x="50" y="160" width="100" height="20" rx="3" ry="3" fill="#ffffff" stroke="#0F4C75" stroke-width="1"/>
+  <text x="100" y="65" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold" fill="#1B262C">NetCDF Data</text>
+  <text x="100" y="85" text-anchor="middle" font-family="monospace" font-size="10" fill="#1B262C">inflow</text>
+  <text x="100" y="115" text-anchor="middle" font-family="monospace" font-size="10" fill="#1B262C">outflow</text>
+  <text x="100" y="145" text-anchor="middle" font-family="monospace" font-size="10" fill="#1B262C">coordinates</text>
+  <text x="100" y="175" text-anchor="middle" font-family="monospace" font-size="10" fill="#1B262C">time_series</text>
+  
+  <!-- RAPID2 Processing Box -->
+  <rect x="240" y="50" width="120" height="160" rx="10" ry="10" fill="#3282B8" stroke="#1B262C" stroke-width="2"/>
+  <text x="300" y="120" text-anchor="middle" font-family="Arial" font-size="18" font-weight="bold" fill="#ffffff">RAPID2</text>
+  <text x="300" y="140" text-anchor="middle" font-family="Arial" font-size="14" fill="#ffffff">Processor</text>
+  
+  <!-- Data Flow Arrows -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#0F4C75"/>
+    </marker>
+  </defs>
+  <line x1="160" y1="80" x2="240" y2="80" stroke="#0F4C75" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="160" y1="110" x2="240" y2="110" stroke="#0F4C75" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="160" y1="140" x2="240" y2="140" stroke="#0F4C75" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="160" y1="170" x2="240" y2="170" stroke="#0F4C75" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Output Data Visualization -->
+  <path d="M 360,105 C 370,90 380,120 390,105" fill="none" stroke="#0F4C75" stroke-width="2"/>
+  <path d="M 360,125 C 370,110 380,140 390,125" fill="none" stroke="#0F4C75" stroke-width="2"/>
+  <path d="M 360,145 C 370,130 380,160 390,145" fill="none" stroke="#0F4C75" stroke-width="2"/>
+  <path d="M 360,165 C 370,150 380,180 390,165" fill="none" stroke="#0F4C75" stroke-width="2"/>
+  
+  <!-- Integration Label -->
+  <text x="200" y="240" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold" fill="#1B262C">Seamless Integration</text>
+  <line x1="120" y1="240" x2="280" y2="240" stroke="#3282B8" stroke-width="2"/>
+</svg>

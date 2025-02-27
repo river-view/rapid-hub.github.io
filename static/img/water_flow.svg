@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <!-- Background River -->
+  <path d="M20,150 C80,120 140,180 200,150 C260,120 320,180 380,150" fill="none" stroke="#BBE1FA" stroke-width="30" stroke-linecap="round"/>
+  
+  <!-- River Flow Lines (direction indicators) -->
+  <path d="M80,150 L100,155 L90,160" fill="none" stroke="#3282B8" stroke-width="3"/>
+  <path d="M180,150 L200,155 L190,160" fill="none" stroke="#3282B8" stroke-width="3"/>
+  <path d="M280,150 L300,155 L290,160" fill="none" stroke="#3282B8" stroke-width="3"/>
+  
+  <!-- Measurement Points -->
+  <circle cx="100" cy="150" r="8" fill="#1B262C" stroke="#BBE1FA" stroke-width="2"/>
+  <circle cx="200" cy="150" r="8" fill="#1B262C" stroke="#BBE1FA" stroke-width="2"/>
+  <circle cx="300" cy="150" r="8" fill="#1B262C" stroke="#BBE1FA" stroke-width="2"/>
+  
+  <!-- Flow Equations -->
+  <path d="M150,80 L250,80" fill="none" stroke="#0F4C75" stroke-width="2"/>
+  <text x="200" y="70" text-anchor="middle" font-family="monospace" font-size="12" fill="#0F4C75">Q = K(XI + (1-X)O)</text>
+  
+  <!-- River Banks -->
+  <path d="M10,130 C80,100 140,160 200,130 C260,100 320,160 390,130" fill="none" stroke="#0F4C75" stroke-width="1" stroke-dasharray="3,3"/>
+  <path d="M10,170 C80,140 140,200 200,170 C260,140 320,200 390,170" fill="none" stroke="#0F4C75" stroke-width="1" stroke-dasharray="3,3"/>
+  
+  <!-- Muskingum Method Label -->
+  <text x="200" y="220" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="#0F4C75">Muskingum Method</text>
+</svg>

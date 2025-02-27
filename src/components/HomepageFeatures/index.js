@@ -4,38 +4,68 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Hydrologic Routing',
+    Svg: require('@site/static/img/water_flow.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        RAPID2 provides a robust framework for hydrologic routing, utilizing
+        the Muskingum method for accurate river flow simulations.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Scalable & Efficient',
+    Svg: require('@site/static/img/scalability.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Optimized for large-scale hydrologic datasets, RAPID2 ensures efficient 
+        processing of river network connectivity and discharge calculations.
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Seamless Data Integration',
+    Svg: require('@site/static/img/data-processing.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Supports NetCDF-based inflow and outflow data, allowing easy integration 
+        with hydrologic models and observational datasets.
+      </>
+    ),
+  },
+  {
+    title: 'Open-Source & Extensible',
+    Svg: require('@site/static/img/open-source.svg').default,
+    description: (
+      <>
+        Built with extensibility in mind, RAPID2 provides modular components 
+        that can be customized for research and operational hydrology applications.
+      </>
+    ),
+  },
+  {
+    title: 'Scientific Accuracy',
+    Svg: require('@site/static/img/scientific-analysis.svg').default,
+    description: (
+      <>
+        Designed for research-grade hydrologic modeling, ensuring reproducibility 
+        and compatibility with peer-reviewed methodologies.
+      </>
+    ),
+  },
+  {
+    title: 'Python & Docker Support',
+    Svg: require('@site/static/img/code-development.svg').default,
+    description: (
+      <>
+        Easily deployable via Python or Docker, allowing flexible usage across 
+        different computing environments.
       </>
     ),
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({ Svg, title, description }) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
