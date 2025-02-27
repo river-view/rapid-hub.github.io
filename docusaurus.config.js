@@ -10,7 +10,7 @@ import { themes as prismThemes } from 'prism-react-renderer';
 const config = {
   title: 'RAPID2',
   tagline: 'Hydrologic Routing and Analysis',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/favicon.svg',
 
   // Set the production URL of your site here
   url: 'https://yunks128.github.io',
@@ -52,7 +52,7 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      image: 'img/rapid2-social-card.jpg',
+      image: 'img/rapid2-social-card.svg',
       navbar: {
         title: 'RAPID2',
         logo: {
@@ -82,7 +82,7 @@ const config = {
             items: [
               {
                 label: 'Overview',
-                to: '/docs/index',
+                to: '/docs/',
               },
               {
                 label: 'Installation',

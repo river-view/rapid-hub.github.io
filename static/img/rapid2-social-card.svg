@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <!-- Background with gradient -->
+  <defs>
+    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f8f9fa" />
+      <stop offset="100%" stop-color="#e6f2ff" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg-gradient)" rx="15" ry="15"/>
+  
+  <!-- Abstract river network background pattern -->
+  <path d="M0,230 Q300,180 600,230 T1200,230" 
+        stroke="#e1ebf5" stroke-width="100" fill="none" opacity="0.5"/>
+  <path d="M0,330 Q300,280 600,330 T1200,330" 
+        stroke="#d1e1f0" stroke-width="80" fill="none" opacity="0.5"/>
+  <path d="M0,430 Q300,380 600,430 T1200,430" 
+        stroke="#c1d7eb" stroke-width="60" fill="none" opacity="0.5"/>
+  
+  <!-- Logo element (simplified version) -->
+  <g transform="translate(150, 315) scale(1.5)">
+    <!-- Stylized "R" formed by river flows -->
+    <path d="M60,40 L60,160 C60,160 60,160 60,160" 
+          stroke="#1a4ba8" 
+          stroke-width="14" 
+          stroke-linecap="round"
+          fill="none"/>
+          
+    <path d="M60,65 Q90,65 105,80 Q120,95 105,115 Q90,135 60,135" 
+          stroke="#1a4ba8" 
+          stroke-width="14" 
+          stroke-linecap="round"
+          fill="none"/>
+          
+    <path d="M90,115 L140,160" 
+          stroke="#1a4ba8" 
+          stroke-width="14" 
+          stroke-linecap="round"
+          fill="none"/>
+    
+    <!-- Water flow elements -->
+    <path d="M30,100 Q65,70 100,100 T170,100" 
+          stroke="#4287f5" 
+          stroke-width="8" 
+          stroke-linecap="round"
+          fill="none"/>
+          
+    <path d="M30,130 Q75,100 120,130 T170,130" 
+          stroke="#2d6ad9" 
+          stroke-width="6" 
+          stroke-linecap="round"
+          fill="none"/>
+    
+    <!-- Data points -->
+    <circle cx="65" cy="70" r="5" fill="#e63946"/>
+    <circle cx="105" cy="100" r="5" fill="#e63946"/>
+    <circle cx="140" cy="130" r="5" fill="#e63946"/>
+  </g>
+  
+  <!-- RAPID2 Text -->
+  <text x="600" y="250" 
+        font-family="Arial, sans-serif" 
+        font-weight="bold" 
+        font-size="80" 
+        text-anchor="middle" 
+        fill="#1a4ba8">RAPID2</text>
+  
+  <!-- Tagline -->
+  <text x="600" y="320" 
+        font-family="Arial, sans-serif" 
+        font-size="36" 
+        text-anchor="middle" 
+        fill="#333">Hydrologic Routing and Analysis</text>
+  
+  <!-- Short description -->
+  <text x="600" y="430" 
+        font-family="Arial, sans-serif" 
+        font-size="24" 
+        text-anchor="middle" 
+        width="800"
+        fill="#555">Advanced river network modeling for discharge calculations,</text>
+  <text x="600" y="465" 
+        font-family="Arial, sans-serif" 
+        font-size="24" 
+        text-anchor="middle" 
+        width="800"
+        fill="#555">connectivity analysis, and hydrologic forecasting</text>
+        
+  <!-- Formula hint -->
+  <text x="600" y="550" 
+        font-family="Arial, sans-serif" 
+        font-style="italic" 
+        font-size="22" 
+        text-anchor="middle" 
+        fill="#777">Q = K(XI + (1-X)O)</text>
+</svg>

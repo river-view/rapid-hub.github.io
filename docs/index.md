@@ -13,5 +13,8 @@ RAPID2 is a hydrologic routing application designed for integrating discharge ca
 - Hydrologic routing with Muskingum method
 - NetCDF-based inflow and outflow file handling
 
+## Context Diagram
+![RAPID2 Context Diagram](/img/C4_Context_Diagram.svg)
+
 ## Installation
 Follow the instructions in the [Installation Guide](installation.md) to set up RAPID2.
