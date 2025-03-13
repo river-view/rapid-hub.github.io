@@ -13,12 +13,12 @@ const config = {
   favicon: 'img/favicon.svg',
 
   // Set the production URL of your site here
-  url: 'https://yunks128.github.io',
-  baseUrl: '/rapid-hub/',
+  url: 'https://river-view.github.io',
+  baseUrl: '/',
 
   // GitHub pages deployment config
-  organizationName: 'yunks128', // GitHub org/user name
-  projectName: 'rapid-hub', // Repo name
+  organizationName: 'river-view', // GitHub org/user name
+  projectName: 'rapid-hub.github.io', // Repo name
   deploymentBranch: 'gh-pages',
 
   onBrokenLinks: 'warn',
@@ -36,11 +36,11 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl: 'https://github.com/yunks128/rapid-hub/edit/main/docs/',
+          editUrl: 'https://github.com/river-view/rapid-hub.github.io/edit/main/docs/',
         },
         blog: {
           showReadingTime: true,
-          editUrl: 'https://github.com/yunks128/rapid-hub/edit/main/blog/',
+          editUrl: 'https://github.com/river-view/rapid-hub.github.io/edit/main/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -68,7 +68,7 @@ const config = {
           },
           { to: '/blog', label: 'Blog', position: 'left' },
           {
-            href: 'https://github.com/yunks128/rapid-hub',
+            href: 'https://github.com/river-view/rapid-hub.github.io',
             label: 'GitHub',
             position: 'right',
           },
@@ -99,7 +99,7 @@ const config = {
             items: [
               {
                 label: 'GitHub Discussions',
-                href: 'https://github.com/yunks128/rapid-hub/discussions',
+                href: 'https://github.com/river-view/rapid-hub.github.io/discussions',
               },
               {
                 label: 'Stack Overflow',
@@ -116,7 +116,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/yunks128/rapid-hub',
+                href: 'https://github.com/river-view/rapid-hub.github.io',
               },
             ],
           },
